@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote for Sam Perkinson - Student Body President</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #2a3d45;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        img.main-photo {
+            width: 280px;
+            height: 400px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .text-sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-section {
+    width: 32%; /* Adjust as needed */
+    position: relative;
+}
+
+.text-section img {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    transform: translateY(-50%); /* Center vertically */
+}
+
+.text-section.left img {
+    top: -150px;
+    right: 160px; /* Adjust as needed */
+}
+
+.text-section.middle img {
+    display: none; /* Hide image in middle section */
+}
+
+.text-section.right img {
+    top: -150px;
+    left: 160px; /* Adjust as needed */
+}
+img.sticker{
+    top: 115px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transform: translateY(-50%); /* Center vertically */   
+    
+}
+img.stickertwo {
+    top: 115px;
+    right: -1px;
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    transform: translateY(-50%); /* Center vertically */  
+    
+ }
+@media (max-width: 768px) {
+    .text-sections {
+        flex-direction: column;
+    }
+
+    .text-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-section img {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+  100
+}
+    </style>
+<body>
+    <header>
+        Creighton Student Body Election
+    </header>
+    
+   <div class="container">
+        <h1>Vote for Sam Perkinson</h1>
+        <img src="perkmain.jpeg" alt="Sam Perkinson's Main Picture" class="main-photo">
+        
+        <div class="text-sections">
+            <div class="text-section left">
+                
+                <h2>Goals:</h2>
+                <ul>
+                    <li>Ice machine in harper</li>
+                    <li>Free food</li>
+                    <li>Student rec</li>
+                    <li>Sodexo food waste/homeless partnership</li>
+                    <li>International student support</li>
+                    <li>Sodexo “student management”</li>
+                </ul>
+
+                <img src="perk2.jpg" alt="Photo of Sam Perkinson">
+            </div>
+            <div class="text-section middle">
+                <h2>About Me:</h2>
+                <p style ="text-indent: 25px;">My name is Sam Perkinson. I was born and raised here in Omaha, Nebraska.
+                    I am currently a junior in the Heider College of Business working towards a double major in marketing and management. I am the eldest child in my family with a younger brother and a younger sister. Music and movies are two areas that I totally nerd out on without any embarrassment. I have both boating and motorcycle permits which I love to use when the midwest weather cooperates.
+                
+                </p>
+                <p style ="text-indent: 25px;">
+                    People are what keep me moving in life. Having conversations with long-time friends and also making a new friend fulfills my every day. I love to not only hear but truly listen to people’s stories. Every person has a unique life, filled with their own highs, lows, wins, and losses.
+                </p>
+            </div>
+            <div class="text-section right">
+                <h2> Vision: </h2>
+                <p style ="text-indent: 25px;">As my campaign slogan says, I am wanting to truly be a student body president for the student body. I have some things on my agenda that I would like to get done from talking with others while also experiencing things that should be addressed.
+                But a majority of what I want to do while in office, is doing what the student body wants. </p> <p style ="text-indent: 25px;">I am only one student. I am a junior, man, from the midwest, in the business school. These demographics do not account for everyone on this amazing campus.
+                Frequent surveying going out seeking feedback and also having “town hall meetings” are two ways I plan to have constant input to the whole student body. By hosting these “town hall meetings,” I want to host an open forum that any and every student could come to and voice anything they want to, to me and the gathered students. This would bring face-to-face accountability and the ability to talk through problems and hopefully talk through and get to a solution.</p>
+
+                <img src="perk3.jpg" alt="Right-aligned Photo">
+            </div>
+        </div>
+    </div>
+    
+        <img src="sticker.JPG" class="sticker">
+        <img src = "Creighton.jpg" class = "stickertwo">
+    
+    <footer>
+        Election Date: 07/11/2023
+    </footer>
+</body>
+</html>
+
